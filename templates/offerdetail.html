@@ -1,0 +1,140 @@
+<ion-view view-title="Offer details">
+
+  <ion-content>
+    <div style="margin-left:0"  class="set row main-45 head ">
+      <div class="set col col-100 nw add-boxx"> 
+      <div class="col-50 col-set">DETAILS</div>
+	  <div class="col-50 col-set" ng-controller="showdate">Offer end:{{date}}</div>
+      </div>
+      
+    </div>
+    
+
+
+
+
+
+<div class="list card" >
+    <div class="booster" >
+	
+    <div class="list card1">
+	
+	<div  class="lstoffr">CANADIAN CALADA</div>
+
+  <div class="booster">
+    <img src="img/offer-detail.png">
+  </div>
+  <div class=" item-body bottm"  ng-controller="NewOffers">
+  
+    <div ng-controller="iconic">
+	
+	
+    <div  class="col-100 offertxt">  {{offer}}</div> 
+	
+	
+	
+	  </div>  
+    
+  </div>
+
+
+</div>
+  </div>
+
+  <div class="item item-body"  ng-controller="BoosterOffers">
+
+    <p ng-controller="offrdetl">
+	
+
+    <span class="inline  offrfnt">  {{offer}}</span>
+
+	
+	
+	
+	<i class=""></i>
+	  </p>  
+
+<div class=""  ng-controller="boostdiscount">
+    <div class="inline boostertxt"></div> 
+	<div class="">{{price}}    <span><strike>{{strkdollr}}</strike></span></div>
+	<div class="col-100 item-tab"><div class="new-col">you save $8 </div><div class="new-col">You get 20 points</div><div class="new-col">123 people like this offer</div></div>
+	  <div class="col-100">
+ <div class="new-50 peple" ng-controller="peplevew">{{vew}}</div>
+	   
+	   <div class="new-50 peple col-set-rght" ng-controller="showdate">Offer end:{{date}}</div>
+	   
+	   </div>
+  </div>	  
+  </div>
+  <div class="item tabs tabs-secondary tabs-icon-left">
+    <a class="tab-item tabradius" href="#">
+      LIKE
+    </a>
+    
+    <a class="tab-item tabradius" href="#">
+     
+SHARE
+    </a>
+  </div>
+
+</div>
+
+
+
+
+<div class="list card" >
+    <div class="offerpara" >
+	
+    <span>HIGHLIGHTS</span>
+  </div>
+
+  <div class="item item-body"  ng-controller="offrpara">
+
+   
+
+	<div class="">{{para}}    
+	
+	</div>
+	
+ 
+  </div>
+  
+
+</div>
+
+
+
+
+    </div>
+	
+  </ion-content>
+  
+  
+  
+  <ion-footer align-title="left" class="footercolr">
+ <div class=" tabs tabs-icon-top footercolr" ng-controller="footertabs">
+    <a ng-href="{{loyalty}}" class="tab-item active bak">
+                    <span class="tab-item  icon footersize">  <i class="{{price}}"></i></span>
+                    LOYALITY<br> PROGRAM
+                </a>
+		
+                <a class="tab-item bak" >
+                    <span class="tab-item  icon footersize">  <i class="{{usd}}"></i></span>
+                    RECOMEND A <br>STORE
+                </a>
+				 <a ng-href="{{myPathVariable}}" class="tab-item bak">
+                  <span class="tab-item  icon footersize">   <i class="{{loyality}}"></i></span>
+                    WISHLIST<br> 
+                </a>
+				
+                <a class="tab-item bak1">
+                    <span class="tab-item  icon footersize">  <i class="{{cart}}"></i></span>
+                    TRENDING <br>OFFER
+                </a>
+  </div>
+ 
+</ion-footer>
+  
+  
+  
+</ion-view>
