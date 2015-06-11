@@ -1,0 +1,67 @@
+<ion-view  view-title="Registration"  >
+<ion-header-bar class="bar-energized">
+  <div class="buttons">
+    <button class="button icon ion-home">Home</button>
+  </div>
+  
+  <div class="buttons">
+    <button class="button button-clear icon ion-star"></button>
+  </div>
+</ion-header-bar>
+  <ion-content>
+    <form >
+      <div class="list list1">
+        <label class="item item-input">
+          <span class=" step"> <i class="ion-ios-person"></i></span>
+          <input type="text"placeholder="First Name" ng-model="register.firstname">
+        </label>
+        <label class="item item-input">
+		<span class=" step"> <i class="ion-ios-person-outline"></i></span>
+          <input type="password" placeholder="Last Name" ng-model="loginData.lastname">
+        </label> 
+		 <label class="item item-input">
+		<span class=" step"> <i class="ion-android-phone-portrait"></i></span>
+          <input type="password" placeholder="Mobile Number" ng-model="loginData.mobilenumber">
+        </label>
+		 <label class="item item-input">
+		<span class=" step"> <i class="ion-android-drafts"></i></span>
+          <input type="password" placeholder="Email ID" ng-model="loginData.EmailID">
+        </label>
+		 <label class="item item-input">
+		<span class=" step"> <i class="icon ion-key"></i></span>
+          <input type="password" placeholder="Password" ng-model="loginData.password">
+        </label>
+	
+        <label class="items">
+          <button class="button button-block button-positive" type="submit">SUBMIT</button>
+        </label>
+		 
+      </div>
+	  
+	  <a href="#" class=" text-center">
+              
+			  <p class="subtitle fancy"><span>OR LOGIN WITH</span></p>
+            </a>
+<div class="itemss tabss tabs-secondary tabs-icon-left" ng-controller="social">		
+    <a class="tab-item" href="#" >
+      <p class="col-center"><i class="{{face}}"></i></p>
+    </a>
+    <a class="tab-item" href="#">
+    <p class="col-center"> <i class="{{twt}}"></i></p>
+    </a>
+    <a class="tab-item" href="#">
+    <p class="col-center"> <i class="{{google}}"></i></p>
+    </a>
+  </div>
+	  
+	  
+	
+	  
+    </form>
+	
+	
+  </ion-content>
+  
+  
+  
+</ion-view>

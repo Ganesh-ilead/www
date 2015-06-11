@@ -1,0 +1,1255 @@
+/* Empty. Add your own CSS if you like */
+
+
+
+.wide-as-needed {
+  
+  white-space: nowrap;
+}
+.scroll { 
+  min-width: 100%;
+}
+
+.barr-subheader
+{
+top:100px;
+}
+.bar.bar-loading {
+  display: block;
+  height: 24px;
+  
+  /* starts right below a normal header */
+  top: 44px;
+  
+  /* make the text centered vertically and horizontally */
+  text-align: center;
+  padding: 0;
+  line-height: 24px;
+
+  /* transition 'sliding down' (check below)*/
+  -webkit-transition: 200ms all;
+}
+
+
+/* 
+ * make the content's top changes animate.
+ * might not always look good, but looks
+ * good when our loader is added & removed
+ */
+.has-header {
+  -webkit-transition: 200ms top;
+}
+.has-header.has-loading {
+  /* 44px (header) + 24px */
+  top: 68px;
+}
+
+/* make loading bar slide up/down */
+.bar-loading.ng-enter,
+.bar-loading.ng-leave.ng-leave-active {
+  height: 0;
+  border-width: 0px;
+}
+.bar-loading.ng-enter.ng-enter-active,
+.bar-loading.ng-leave {
+  height: 24px;
+  border-width: 1px;
+}
+
+.scroll-view
+{
+display:grid!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* social icons add */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social {
+  font-size: 42px!important;
+  color: #000;
+  margin: 4px 28px 0px 22px!important;
+  margin-top:10px!important;
+    border: 3px solid #000;
+  border-radius: 100%;
+    padding: 9px 12px 9px 16px;
+  
+  
+}
+
+.footer{
+
+width:700px;
+}
+
+.fbf
+{
+width:200px;
+float:left;
+
+}
+
+.twt
+{
+width:200px;
+float:left;
+margin-left:20px;
+}
+
+.gle
+{
+width:200px;
+float:left;
+margin-left:20px;
+}
+
+
+	.head{
+	margin-top:9%;
+	}
+
+.main-topp
+{
+  margin-top:55px!important;
+}
+
+.flgtxt
+{
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin: 30px 7px 5px -40px;
+}
+
+.size-icon
+{
+font-size:32px;
+color:#78C236;
+float:left;
+}
+
+.boostertxt
+{
+float:left;
+font-size:12px;
+margin-top:7px;
+}
+
+
+
+
+
+
+
+.flg
+{
+font-size: 106px;
+  margin: -13px 13px 4px 10px;
+}
+.boostericn
+{
+display:inline;
+
+float: left;
+  margin-top: 28px;
+}
+
+.socialface {
+  font-size: 42px!important;
+  color: #000;
+  margin: 4px 0px 0px 0px!important;
+  margin-top:10px!important;
+    border: 3px solid #000;
+  border-radius: 100%;
+        padding: 6px 22px 10px 25px;
+  
+  
+}
+
+.itemss p
+{
+margin-top:12px;
+}
+
+.footersize
+{
+  padding-top: 6px;
+}
+
+.tabradius
+{
+border-right:1px solid #ccc;
+color:green;
+}
+
+
+  #progressbar {
+      
+  
+    }
+    
+    #progressbar > .pr {
+        background-color: orange;
+  width: 26%;
+  height: 12px;
+  border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+  float: left;
+    }
+
+ #progressbar > .br {
+       background-color: #c7da26;
+       width: 30%; /* Adjust with JavaScript */
+       height: 12px;
+     
+    float:left;    
+    }
+	 #progressbar > .tr {
+       background-color: #78c236;
+       width: 20%; /* Adjust with JavaScript */
+       height: 12px;
+     
+    float:left;    
+    }
+
+#progressbar > .gr {
+       background-color: #21db97;
+       width: 20%; /* Adjust with JavaScript */
+       height: 12px;
+     
+    float:left;    
+    }
+
+
+#progressbar > .nr {
+       background-color: #15eedc;
+       width: 20%; /* Adjust with JavaScript */
+       height: 12px;
+	    border-top-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+     
+    float:left;    
+    }
+	
+
+	
+.backbtn{
+ font-size: 42px!important;
+  color:#000;
+    margin: 0px 0px 0px 22px;
+	float:left;
+}
+
+
+.booster
+{
+
+  top: 16px;
+  left: 16px;
+  max-width: 100%;
+  max-height: auto;
+  width: 100%;
+  height: 100%;
+
+}
+
+.iconset
+{
+position:absolute;
+font-size:86px;
+}
+.booster  img
+{
+ width:100%;
+ height:auto;
+
+}
+
+
+
+
+.backtxt
+{
+float:left;
+  margin-top: 10px;
+
+}
+	
+
+.progress
+{
+  float: left;
+  margin-left: 8px;
+  margin-top: -11px;
+  color: #7E7A7A;
+}
+.sideimgpad
+{
+  padding-top: 11px;
+  padding-left: 9px;
+}
+
+.percentlft
+{
+color:#78C236;
+  margin-left: 12px;
+  float:left;
+}
+
+
+
+
+
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#444;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+
+
+.footersize img{
+width:26px!important;
+margin-top:6px;
+}
+.main-content-area:last-child
+{
+
+margin-bottom:460px;
+padding-bottom:400px!important;
+}
+
+.container-block:last-child {
+  padding-bottom: 500px;
+}
+.footercolr
+{
+background-color:none!important;
+height:60px;
+}
+.displayBoard {
+  border: 3px solid #67a20d;
+  margin-right: 6px;
+  padding: 9px 5px 0 17px;
+  position: relative;
+  min-width: 80px;
+  color: #FFF;
+  background: #6aa535;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  font-size: 17px;
+}
+.goicon{
+ position: absolute;
+    left: -17px;
+    top: -3px;
+ }
+.bar-header .buttons-right{
+ position: relative !important;
+   top: 0 !important;
+   right:0;
+  }
+  
+  
+  .col-100
+  
+  {
+  width:100%;
+  
+  
+  }
+  
+  
+  .slidediv {
+  border-color: #b2b2b2;
+  background-color: #f8f8f8;
+  color: #444;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  
+  min-width: 52px;
+  min-height: 47px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  vertical-align: top;
+  width:300px;
+  height:200px;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  
+  line-height: 42px;
+  cursor: pointer; }
+  
+
+.list1
+{
+margin-bottom:100px;
+  box-shadow: 0px 1px 4px #888888;
+  background-color:#fff;
+  margin:22px;
+  margin-top:70px;
+  margin-bottom:32px;
+}
+.sidetop
+{
+top:90px;
+}
+
+.sideimg img{
+border:1px solid #ccc;
+border-radius:100%;
+width:80%;
+}
+
+.no-top-border{
+ border-top:0px;
+ }
+ .sidehead
+ {
+ width:100%;
+ padding:12px;
+ }
+
+.step {
+  display: inline-block;
+  line-height: 1;
+  position: relative;
+  width: 40px;
+}
+
+.size-32 {
+  font-size: 23px;
+}
+
+.itemss{
+ 
+  color: #444;
+  position: relative;
+  z-index: 2;
+  display: block;
+  margin: -1px;
+  padding: 16px;
+  font-size: 16px;
+}
+
+.tabss {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: horizontal;
+  -moz-flex-direction: horizontal;
+  -ms-flex-direction: horizontal;
+  flex-direction: horizontal;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  color: #444;
+  position: relative;
+  bottom: 0;
+  z-index: 5;
+  width: 100%;
+  
+  
+  border-top-width: 1px;
+  background-size: 0;
+  line-height: 49px; }
+
+  
+  .itemss.tabss {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position:relative;
+  padding: 0;
+}
+
+.subtitle {
+  margin: 0 0 1em 0;
+}
+.fancy {
+  /* line-height: 0.5; */
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+ 
+  border-top: 1px solid #000;
+  top: 0;
+  width: 150px;
+  
+    bottom: 0;
+    margin: auto;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+
+
+
+
+
+
+/* Empty. Add your own CSS if you like */
+.clear{
+	clear:both;
+}
+.side
+{
+    height:130px;
+    color:#fff;
+    background-color:#64A909;
+}
+.side1
+{
+    height:130px;
+    background-color:#000;
+    color:#fff;
+}
+.ad-box{
+	background:#772A90;
+}
+.ad-box img{
+	  max-width: 400px !important;
+	  display: block;
+	 
+}
+
+.add-box{
+	background-image:url('img/outdash.png');
+	width:100%;
+	background-size:100%;
+	height:300px;
+	margin-bottom:30px;
+	min-width:100%;
+	float:left;
+	display:block;
+	background-size:cover;
+}
+
+		.txt-hgt1 {
+  margin-top: -23px;
+  font-size:12px;
+}
+
+.slidediv1
+
+{
+
+  border-color: #b2b2b2;
+  background-color: #f8f8f8;
+  color: #444;
+  position: relative;
+  display: inline-block;
+  margin: 36px 0px 0px 43px;
+  padding: 0 0px;
+  min-width: 52px;
+  min-height: 47px;
+  border-width: 1px;
+  border-style: solid;
+ 
+  vertical-align: top;
+  width: 84%;
+  height: 200px;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  line-height: 42px
+
+}
+
+.crcle
+{
+  background: #000;
+  min-height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  position: absolute;
+  /* left: -40px; */
+  top: 108px;
+
+}
+
+.div-cen
+{
+margin:auto;
+padding-top:20px;
+}
+
+.strip
+{
+
+width:100%;
+height:40px;
+background-color:gray;
+float:left;
+min-width:100%;
+  display: block;
+}
+
+
+.add-box img{
+	  max-width: 400px !important;
+	  display: block;
+	  margin: auto;
+	  margin-top:60px!important;
+	   margin-bottom:40px!important;
+}
+
+.cen-txt {
+  margin: auto;
+  text-align: center;
+}
+.cen-txt .txt {
+  font-size: 40px;
+  font-weight: 500;
+}
+.main-content-area{
+	
+	min-height:500px;
+	width:100%;
+	display:block;
+	background-size:cover;
+	padding-top: 40px;
+	padding-left: 33px;
+	margin-bottom:430px;
+	}
+.content-box {
+  width: 90%;
+  min-height: 1px;
+  margin: auto;
+}
+.container-block {
+  width: 84%;
+  background: #FFF;
+  min-height: 141px;
+  max-height: 160px;
+  position: relative;
+  border: 3px solid #ccc;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+  float: left;
+  margin-bottom:12px;
+}
+.circle-container {
+  background: #000;
+  min-height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  position: absolute;
+  left: -40px;
+  top: 17px;
+}
+.circle-container img{
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+}
+
+
+.circle-container1 {
+  background: #000;
+  min-height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  position: absolute;
+  left: -40px;
+  top: 26px;
+}
+
+.circle-container1 img{
+  margin: auto;
+  display: block;
+  margin-top: 18px;
+}
+
+.circle-container2 {
+  background: #000;
+  min-height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  position: absolute;
+  left: -40px;
+  top: 26px;
+}
+.icnrght
+
+{
+width:100%;
+float:left;
+}
+
+
+.circle-container2 img{
+  margin: auto;
+  display: block;
+  margin-top: 18px;
+}
+
+.active
+{
+color:#fff;
+background-color:#000;
+}
+
+.bak
+{
+
+background-color:#78C236;
+border-right:1px solid #fff;
+color:#fff;
+}
+
+.bak1
+{
+
+background-color:#78C236;
+color:#fff;
+}
+
+
+
+
+.arrow-block {
+  width: 15%;
+  min-width: 40px;
+  height: 120px;
+  float: left;
+  background: #64A909;
+  margin-top: 10px;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+  max-width: 60px;
+}
+.arrow-block img {
+  display: block;
+  margin: auto;
+  margin-top: 32px;
+}
+.bar-stable {
+  min-height: 54px !important;
+}
+
+.sidename
+{
+margin-left:-3px;
+}
+
+
+
+.barr {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 9;
+  box-sizing: border-box;
+  padding: 5px;
+  width: 100%;
+  height: 61px;
+  border-width: 0;
+  border-style: solid;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+  /* border-width: 1px will actually create 2 device pixels on retina; */
+  background-size: 0;
+}
+
+
+.sideheader
+{
+background-color:#fff!important;
+height:83px;
+
+
+}
+.text-content {
+  margin-left: 55px;
+  padding-top: 20px;
+}
+.text-content h3 {
+  font-size: 3vw;
+  text-transform: uppercase;
+}
+.text-content hr{
+  width:94%;
+  float:left;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color:#ccc;
+	}
+.text-content p{
+  font-size: 1.9vw;
+  font-weight:500;
+  margin-bottom: 8px;
+  line-height: 1.3;
+	}
+.reward-status{
+  font-size: 1.9vw !important;
+  font-weight: 200 !important;
+	}
+	
+	.main
+	{
+	
+	
+	}
+	
+	.submain-left
+	{
+	
+	background-color:green;
+	float:left;
+	height:78px;
+	
+	}
+	
+	.sideimgpad img
+	{
+	margin-top:-22px!important;
+	  margin-left: 4px;
+	  width:67px;
+	}
+	
+	.imgtop
+	{
+	margin-top:10px!important;
+	}
+	
+	.submain-right{
+
+	background-color:black;
+	float:left;
+	height:78px;
+	
+	}
+	
+	.crcle1
+	{
+
+  /* min-height: 123px; */
+  /* width: 138px; */
+  border-radius: 79%;
+  position: absolute;
+  /* left: -40px; */
+  top: 103px;
+  height: 100px;
+	}
+	
+	.col-div{
+	
+	width:50%;
+	
+	}
+	
+	.icn-align{
+	margin-right:30px;
+	color:green;
+	}
+	
+	
+	.col-div-100{
+	
+	width:100%;
+	}	
+	
+	.div-txt-inline{
+	float:left;
+
+	width:50%;
+	}
+	
+	.cen-colr
+	{
+	color:#fff;
+
+margin:auto;
+	}
+	
+	
+	.cen-footer{
+	color:#000; width:50%;float:left
+	
+	}
+	
+	.cen-main{
+	width:100%;
+	}
+	.icn-round
+	{
+	font-size:14px;
+	padding:7px;
+	width:50px;
+	border-radius:100%;
+	background-color:#000;
+	color:#fff;
+	}
+	
+	.icn-round-grn
+	{
+	font-size:14px;
+	padding:7px;
+	width:50px;
+	border-radius:100%;
+	background-color:#78C236;
+	color:#fff;
+	}
+	
+	
+	/* start the classes for the out store dashboard */
+	.strp
+	{
+	
+	width:100%;
+	background-color:#fff;
+	height:30px;
+	}
+	
+	.cen-div{
+	width:298px;
+	padding-top: 4px;
+
+	}
+	
+	.cen-main-div{
+	width:76px;float:left;margin-left:-15px;
+	
+	
+	}
+	
+	
+	
+	.cen-strp{
+	
+	width:100%;height:40px;background-color:#000;float:left;color:#fff;
+	}
+	
+	.cen-strp2{
+	
+	width:100%;height:40px;float:left;color:#fff;
+	}
+	
+	.cen-main-div img{
+	width:50px;
+	
+	}
+	
+	.cen-main-foot
+	{
+	width:500px;float:left;
+	margin-top:13px;
+	
+	}
+	
+	.main-slide-div
+	{
+	width:100%;
+	height:80px;
+	background-color:#ccc;
+	  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-top:9px;
+	
+	}
+	
+	.cen-main-foot2
+	{
+	float:left;
+	margin-top:13px;
+	
+	}
+		.cen-btn
+	{
+	width:auto;float:left;
+	margin-left:15px;
+	height:40px;
+	}
+	
+	.cen-main2
+	{
+	width:150px;float:left;border-right:1px solid #ccc;
+	
+	height:40px;
+	}
+	
+	.cen-main22
+	{
+	width:150px;float:left;
+	
+	}
+	
+	.cen-main-crcle
+	{
+	width:200px;
+	height:
+	
+	}
+	
+	.main-rewrd-foot
+	{
+	font-size:12px;
+	margin-top:-12px;
+	
+	
+	}
+	.main-strip{
+	
+	width:100%;
+	background-color:#000;
+	padding-left:12px;
+	margin-top:10px;
+	color:#fff;
+	padding-top:12px;
+	padding-bottom:12px;
+	margin-bottom:10px;
+	}
+	
+	.cen-main-div2
+	
+	{
+	float:left;
+
+	}
+	
+	
+	.small-contnt
+	{
+	
+	  text-align: justify;
+  font-size: 10px;
+  line-height: 13px;
+  float: left;
+
+	
+	
+	}
+	
+	.main-hgt
+{
+padding-bottom:100px;
+}
+.col-100{
+width:100%;
+}
+
+.new-50{
+width:50%;
+float:left:
+}
+.fnt-size
+{
+font-size:17px;
+
+}
+	
+	/* End the classes for the out store dashboard */
+	
+	/*start classes for the listoffer */
+	.prce
+	
+	{
+	  width: 100%;
+  float: left;
+  padding-left: 38px;
+  font-weight: bold;
+	
+	}
+	
+	/*end classes for the listoffer */
+	
+	/* start classes for offerdetail */
+	
+	.peple
+	{
+	float:left;
+	border-top:1px solid #ccc;
+	  margin-top: 18px;
+  padding-top: 12px;
+	}
+	
+	
+	.lstoffr
+	{
+	   width: 100%;
+  height: 50px;
+  background-color: #78C236;
+  margin: auto;
+  padding: 0;
+  right: 0;
+  left: 0;
+  /* text-align: center; */
+  margin: 0;
+  padding-top: 12px;
+  padding-left: 19px;
+  font-weight: bold;
+	}
+	
+	.add-boxx{
+	background-color:#fff;
+	padding-left:12px;
+	padding:15px;
+	box-shadow: 0px 3px 5px #888888;
+	font-weight:bold;
+	}
+	
+	.offerpara
+	{
+	padding:12px;
+	
+	}
+	
+	.offrfnt
+	{
+	font-size:12px;
+	font-weight:bold;
+	width:100%;
+	}
+	.card1
+	{
+	  padding-top: 1px;
+  padding-bottom: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	  overflow: hidden;
+  margin: 0px 0px;
+  border-radius: 10px;
+  background-color: #ff
+	}
+	.offertxt
+	{
+	font-size:12px;
+	}
+	.bottm
+	{
+	  background-color: #000;
+  color: #fff;
+	}
+	
+	.col-set
+	{
+	width:50%;
+	float:left;
+	}
+	
+		.col-set-rght
+	{
+	width:50%;
+	float:right;
+	text-align:right;
+	}
+	
+	/* End classes for the offerdetail */
+	
+	/*Start claase for the loyality screen */
+	
+	.btn-algn
+	{
+	  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+	
+	}
+	
+	.div-footer-clr
+	{
+	background-color:#000;
+	color:#fff;
+	}
+	
+	.size-34 {
+  font-size: 34px;
+  float:right;
+}
+	.para-botm-bordr
+	
+	{
+	padding-bottom:10px;
+	border-bottom:1px solid #ccc;
+	
+	
+	}
+	
+	/* End classes for the loyality screen */
+	
+
+
+
+

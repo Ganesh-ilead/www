@@ -1,0 +1,56 @@
+<ion-view  view-title="Forgot Password"  >
+<ion-header-bar class="bar-energized">
+  <div class="buttons">
+    <button class="button icon ion-home">Home</button>
+  </div>
+  
+  <div class="buttons">
+    <button class="button button-clear icon ion-star"></button>
+  </div>
+</ion-header-bar>
+  <ion-content>
+    <form ng-submit="doLogin()">
+      <div class="list list1">
+        <label class="item item-input no-top-border">
+           <span class=" step"> <i class="ion-android-drafts"></i></span>
+          <input type="text"placeholder="Enter Your E-mail ID" ng-model="loginData.username">
+        </label>
+        
+
+		        <label class="items">
+          <button class="button button-block button-positive" type="submit">SUBMIT</button>
+        </label>
+		<br>
+		<div class="text-center padding" >
+			<span >We will send you the instruction to reset your<br> password on your register email ID</span>
+	</div>
+      </div>
+	  
+	  
+	  <a href="#" class=" text-center">
+              
+			  <p class="subtitle fancy"><span>OR LOGIN WITH</span></p>
+            </a>
+	    <div class="itemss tabss tabs-secondary tabs-icon-left" ng-controller="social">		
+    <a class="tab-item" href="#" >
+      <p class="col-center"><i class="{{face}}"></i></p>
+    </a>
+    <a class="tab-item" href="#">
+    <p class="col-center"> <i class="{{twt}}"></i></p>
+    </a>
+    <a class="tab-item" href="#">
+    <p class="col-center"> <i class="{{google}}"></i></p>
+    </a>
+  </div>
+	  
+	  
+	
+	  
+    </form>
+	
+	
+  </ion-content>
+  
+  
+  
+</ion-view>

@@ -1,0 +1,173 @@
+<ion-view view-title="new offers">
+
+  <ion-content>
+    <div style="margin-left:0"  class="set row main-45 head ">
+      <div class="set col col-50 nw ad-box"> 
+      	<img width="100%" height="auto" src="img/booster-logo.png"> 
+      </div>
+      <div class=" set col  col-50" ng-controller="MerchantDetails">
+        <div style="margin-left:0"  class="row point-boxes side" >
+          <div class="set col col-offset-40 cen-txt " ng-controller="textmerchant"> <span  class="padding- padding-top txt">{{marchantpoints}}</span>
+            <div> <span> {{merchant}} </span> </div>
+          </div>
+        </div>
+        <div style="margin-left:0" class="row point-boxes side1 padding" ng-controller="textreward"  ng-style="{height:pointBoxHeight + 'px'}">
+          <div class="col col-offset-40 cen-txt "> <span class="padding- padding-top txt">{{marchantrewards}}</span>
+            <div> <span> {{merchantreward}} </span> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="list card">
+
+  <div class="booster">
+    <img src="img/boostoffer.png">
+  </div>
+
+  <div class="item item-body"  ng-controller="NewOffers">
+    
+    <p>
+
+      {{offer}} 
+	  </p>
+    
+  </div>
+
+  <div class="item tabs tabs-secondary tabs-icon-left">
+    <a class="tab-item tabradius" href="#">
+     
+      VIEW DETAILS
+    </a>
+    <a class="tab-item tabradius" href="#">
+     
+      ADD TO BASKET
+    </a>
+    <a class="tab-item tabradius" href="#">
+     
+SHARE
+    </a>
+  </div>
+
+</div>
+
+
+
+
+
+<div class="list card">
+
+  <div class="booster">
+    <img src="img/boostwheatgrass.png">
+    
+  </div>
+
+  <div class="item item-body"  ng-controller="NewOffers">
+   	<i class="{{boostericon}}"></i>
+    <p>
+      {{offer}} 
+	  </p>
+    
+  </div>
+
+  <div class="item tabs tabs-secondary tabs-icon-left">
+    <a class="tab-item tabradius" href="#">
+     
+      VIEW DETAILS
+    </a>
+    <a class="tab-item tabradius" href="#">
+     
+      ADD TO BASKET
+    </a>
+    <a class="tab-item tabradius" href="#">
+     
+SHARE
+    </a>
+  </div>
+
+</div>
+
+
+
+<div class="list card">
+
+  <div class="booster">
+   <img src="img/boostwheatgrass.png">
+    
+  </div>
+
+  <div class="item item-body"  ng-controller="NewOffers">
+   
+    <p>
+      {{offer}} 
+	  </p>
+    
+  </div>
+
+  <div class="item tabs tabs-secondary tabs-icon-left">
+    <a class="tab-item tabradius" href="#">
+     
+      VIEW DETAILS
+    </a>
+    <a class="tab-item tabradius" href="#">
+     
+      ADD TO BASKET
+    </a>
+    <a class="tab-item tabradius" href="#">
+     
+SHARE
+    </a>
+  </div>
+
+</div>
+
+
+
+
+
+    </div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  </ion-content>
+  
+  
+  
+  <ion-footer align-title="left" class="footercolr">
+  <div class=" tabs tabs-icon-top footercolr">
+    <a class="tab-item active">
+                    <span class="tab-item  icon footersize">  <img src="../img/all-offers - Copy.png"></span>
+
+
+
+                    RECOMEND <br>STORE
+                </a>
+				
+				
+                <a class="tab-item bak">
+                    <span class="tab-item  icon footersize">  <img src="../img/payment-setting.png"></span>
+
+
+                    PAYMENTS <br>SETTING
+                </a>
+				 <a class="tab-item bak">
+                  <span class="tab-item  icon footersize">  <img src="../img/heart.png"></span>
+                    LOYALITY<br> PROGRAM
+                </a>
+				
+                <a class="tab-item bak">
+                    <span class="tab-item  icon footersize">  <img src="../img/my-cart - Copy.png"></span>
+                    MY <br>BASKET
+                </a>
+  </div>
+ 
+</ion-footer>
+  
+  
+  
+</ion-view>

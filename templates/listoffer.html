@@ -1,0 +1,166 @@
+<ion-view view-title="List of Offers">
+
+  <ion-content>
+    <div style="margin-left:0"  class="set row main-45 head ">
+      <div class="set col col-50 nw ad-box"> 
+      	<img class="boosterimg" width="100%" height="auto" src="img/booster-logo.png"> 
+      </div>
+      <div class=" set col  col-50" ng-controller="MerchantDetails">
+        <div style="margin-left:0"  class="row point-boxes side" >
+          <div class="set col col-offset-40 cen-txt " ng-controller="textmerchant"> <span  class="padding- padding-top txt">{{marchantpoints}}</span>
+            <div> <span> {{merchant}} </span> </div>
+          </div>
+        </div>
+        <div style="margin-left:0" class="row point-boxes side1 padding" ng-controller="textreward"  ng-style="{height:pointBoxHeight + 'px'}">
+          <div class="col col-offset-40 cen-txt "> <span class="padding- padding-top txt">{{marchantrewards}}</span>
+            <div> <span> {{merchantreward}} </span> </div>
+          </div>
+        </div>
+		
+		
+      </div>
+    </div>
+    <div class="list card">
+
+  <div class="booster">
+    <img src="img/boostoffer.png">
+  </div>
+  <div class="item item-body"  ng-controller="NewOffers">
+  
+    <p ng-controller="iconic">
+	
+	<i class="{{boostericon}}"></i>
+    <div  class="inline boostertxt">  {{offer}}</div> 
+	<div class=""></div>
+	
+	<i class=""></i>
+	  </p>  
+    
+  </div>
+
+  <div class="item tabs tabs-secondary tabs-icon-left" ng-controller="rdctoffr">
+    <a class="tab-item tabradius" ng-href="{{offerdtls}}">
+     
+      VIEW DETAILS
+    </a>
+    <a class="tab-item tabradius" href="#">
+     
+      ADD TO BASKET
+    </a>
+    <a class="tab-item tabradius" href="#">
+     
+SHARE
+    </a>
+  </div>
+
+</div>
+
+
+
+
+
+<div class="list card" >
+    <div class="booster" ng-controller="flagg">
+	<i class="ion-android-bookmark iconset flg size-45"><span class="flgtxt">{{flagtxt12}}</span></i>
+    <img src="img/boostwheatgrass.png">
+  </div>
+
+  <div class="item item-body"  ng-controller="BoosterOffers">
+
+    <p ng-controller="iconic">
+	
+	<i class="{{boostericon}}"></i>
+    <span class="inline boostertxt">  {{offer}}</span> 
+	
+	
+	<i class=""></i>
+	  </p>   
+  </div>
+  <div class="item tabs tabs-secondary tabs-icon-left">
+    <a class="tab-item tabradius" href="#">
+      VIEW DETAILS
+    </a>
+    <a class="tab-item tabradius" href="#">
+     
+      ADD TO BASKET
+    </a>
+    <a class="tab-item tabradius" href="#">
+     
+SHARE
+    </a>
+  </div>
+
+</div>
+
+
+
+
+<div class="list card" >
+    <div class="booster" ng-controller="flagg">
+	<i class="ion-android-bookmark iconset flg size-45"><span class="flgtxt">{{flagtxt12}}</span></i>
+    <img src="img/boostwheatgrass.png">
+  </div>
+
+  <div class="item item-body"  ng-controller="boostdiscount">
+
+    <p ng-controller="iconic">
+	
+	<i class="{{boostericon}}"></i>
+    <div class="inline boostertxt"> {{discount}}</div> 
+	<div class="prce">{{price}}    <span><strike>{{strkdollr}}</strike></span></div>
+	
+	<i class=""></i>
+	  </p>   
+  </div>
+  <div class="item tabs tabs-secondary tabs-icon-left">
+    <a class="tab-item tabradius" href="#">
+      VIEW DETAILS
+    </a>
+    <a class="tab-item tabradius" href="#">
+     
+      ADD TO BASKET
+    </a>
+    <a class="tab-item tabradius" href="#">
+     
+SHARE
+    </a>
+  </div>
+
+</div>
+
+
+
+
+    </div>
+	
+  </ion-content>
+  
+  
+  
+  <ion-footer align-title="left" class="footercolr">
+  <div class=" tabs tabs-icon-top footercolr" ng-controller="footertabs">
+    <a ng-href="{{loyalty}}" class="tab-item active bak">
+                    <span class="tab-item  icon footersize">  <i class="{{price}}"></i></span>
+                    LOYALITY<br> PROGRAM
+                </a>
+		
+                <a class="tab-item bak" >
+                    <span class="tab-item  icon footersize">  <i class="{{usd}}"></i></span>
+                    RECOMEND A <br>STORE
+                </a>
+				 <a ng-href="{{myPathVariable}}" class="tab-item bak">
+                  <span class="tab-item  icon footersize">   <i class="{{loyality}}"></i></span>
+                    WISHLIST<br> 
+                </a>
+				
+                <a class="tab-item bak1">
+                    <span class="tab-item  icon footersize">  <i class="{{cart}}"></i></span>
+                    TRENDING <br>OFFER
+                </a>
+  </div>
+ 
+</ion-footer>
+  
+  
+  
+</ion-view>
