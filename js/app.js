@@ -60,10 +60,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   })
 
   .state('app.dummy', {
-    url: "/new",
+    url: "/dashboard",
     views: {
       'menuContent': {
-        templateUrl: "templates/new.html",
+        templateUrl: "templates/dashboard.html",
 		controller: 'contenntbox'
       }
     }
@@ -71,11 +71,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   
   
   
-  .state('app.new', {
-    url: "/new",
+  .state('app.dashboard', {
+    url: "/dashboard",
     views: {
       'menuContent': {
-        templateUrl: "templates/new.html",
+        templateUrl: "templates/dashboard.html",
 		controller: 'contenntbox'
       }
     }
@@ -105,48 +105,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   })
   
   /* End controller for the listoffer of outstore dashboard onclick offer for yous the offer */
-  
-  
-  
-  /* controller for the offerdetail of outstore dashboard onclick offer for yous the offer */
-    .state('app.offerdetail', {
-    url: "/offerdetail",
-    views: {
-      'menuContent': {
-        templateUrl: "templates/offerdetail.html"
-      }
-    }
-  })
-  
-  /* End controller for the offerdetail of outstore dashboard onclick offer for yous the offer */
-  
-  
-  /* controller for the Loyality Program  */
-    .state('app.loyality', {
-    url: "/loyality",
-    views: {
-      'menuContent': {
-        templateUrl: "templates/loyality.html"
-      }
-    }
-  })   
-  
-  /* End controller for the Loyality Program  */
-  
-  
-  
-  /* controller for the Loyality Program  */
-    .state('app.wishlist', {
-    url: "/wishlist",
-    views: {
-      'menuContent': {
-        templateUrl: "templates/wishlist.html"
-      }
-    }
-  })   
-  
-  /* End controller for the Loyality Program  */
-  
   
   .state('buttonapp.registration', {
     url: "/registration",

@@ -1,0 +1,85 @@
+<ion-view view-title="Dashboard">
+
+  <ion-content>
+    <div style="margin-left:0"  class="main-topp set row main-45 ">
+      <div class="set col col-50 nw ad-box"> 
+      	<img class="boosterimg" width="100%" height="auto" src="img/booster-logo.png"> 
+      </div>
+      <div class=" set col  col-50" ng-controller="MerchantDetails">
+        <div style="margin-left:0"  class="row point-boxes side" >
+          <div class="set col col-offset-40 cen-txt " ng-controller="textmerchant"> <span  class="padding- padding-top txt">{{marchantpoints}}</span>
+            <div> <span> {{merchant}} </span> </div>
+          </div>
+        </div>
+        <div style="margin-left:0" class="row point-boxes side1 padding" ng-controller="textreward"  ng-style="{height:pointBoxHeight + 'px'}">
+          <div class="col col-offset-40 cen-txt "> <span class="padding- padding-top txt">{{marchantrewards}}</span>
+            <div> <span> {{merchantreward}} </span> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-content-area" >
+    	<div  ng-repeat="content in contentboxdescp">
+			<div class="content-box">
+				<div class="container-block">
+					<div class="circle-container">
+						<!--<img width="40" src="{{content.path}}">-->
+						<i class="{{content.path}}"></i>
+					</div>
+				<a ng-href="{{content.rdirect}}">	<div class="text-content">
+					
+						<h3>{{content.title}}</h3>
+						<hr>
+						<div class="clear"></div>
+						<p>{{content.description}}<br> 
+						{{content.description2}}</p>
+						<p class="reward-status"> {{content.rewarddetails}} </p>
+						</a>			
+					</div>
+				</div>
+			<a ng-href="{{content.rdirect}}">	<div class="arrow-block" ng-controller="iconic" >
+					<i class="{{icon}}"></i>
+				</div></a>
+			</div>
+		</div>
+    </div>
+	
+	
+	
+  </ion-content>
+  
+  
+  
+  <ion-footer align-title="left" class="footercolr">
+  <div class=" tabs tabs-icon-top footercolr" ng-controller="footertabs">
+    <a class="tab-item active bak">
+                    <span class="tab-item  icon footersize">  <i class="{{price}}"></i></span>
+
+
+
+                    ALL <br>OFFERES
+                </a>
+				
+				
+                <a class="tab-item bak" >
+                    <span class="tab-item  icon footersize">  <i class="{{usd}}"></i></span>
+
+
+                    PAYMENT <br>SETTING
+                </a>
+				 <a ng-href="{{myPathVariable}}" class="tab-item bak">
+                  <span class="tab-item  icon footersize">   <i class="{{graph}}"></i></span>
+                    PROGRESS<br> INDICATOR
+                </a>
+				
+                <a class="tab-item bak1">
+                    <span class="tab-item  icon footersize">  <i class="{{cart}}"></i></span>
+                    MY <br>BASKET
+                </a>
+  </div>
+ 
+</ion-footer>
+  
+  
+  
+</ion-view>

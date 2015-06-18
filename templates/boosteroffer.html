@@ -1,4 +1,4 @@
-<ion-view view-title="List of Offers">
+<ion-view view-title="Booster Juice Offer">
 
   <ion-content>
     <div style="margin-left:0"  class="set row main-45 head ">
@@ -16,8 +16,6 @@
             <div> <span> {{merchantreward}} </span> </div>
           </div>
         </div>
-		
-		
       </div>
     </div>
     <div class="list card">
@@ -26,20 +24,15 @@
     <img src="img/boostoffer.png">
   </div>
   <div class="item item-body"  ng-controller="NewOffers">
-  
-    <p ng-controller="iconic">
-	
-	<i class="{{boostericon}}"></i>
-    <div  class="inline boostertxt">  {{offer}}</div> 
-	<div class=""></div>
-	
-	<i class=""></i>
-	  </p>  
+
+    <p>
+      {{offer}} 
+	  </p>
     
   </div>
 
-  <div class="item tabs tabs-secondary tabs-icon-left" ng-controller="rdctoffr">
-    <a class="tab-item tabradius" ng-href="{{offerdtls}}">
+  <div class="item tabs tabs-secondary tabs-icon-left">
+    <a class="tab-item tabradius" href="#">
      
       VIEW DETAILS
     </a>
@@ -55,13 +48,9 @@ SHARE
 
 </div>
 
-
-
-
-
 <div class="list card" >
-    <div class="booster" ng-controller="flagg">
-	<i class="ion-android-bookmark iconset flg size-45"><span class="flgtxt">{{flagtxt12}}</span></i>
+    <div class="booster" ng-controller="flag">
+	<i class="ion-android-bookmark iconset flg size-45"><span class="flgtxt">{{flagtxt}}</span></i>
     <img src="img/boostwheatgrass.png">
   </div>
 
@@ -92,45 +81,6 @@ SHARE
 
 </div>
 
-
-
-
-<div class="list card" >
-    <div class="booster" ng-controller="flagg">
-	<i class="ion-android-bookmark iconset flg size-45"><span class="flgtxt">{{flagtxt12}}</span></i>
-    <img src="img/boostwheatgrass.png">
-  </div>
-
-  <div class="item item-body"  ng-controller="boostdiscount">
-
-    <p ng-controller="iconic">
-	
-	<i class="{{boostericon}}"></i>
-    <div class="inline boostertxt"> {{discount}}</div> 
-	<div class="prce">{{price}}    <span><strike>{{strkdollr}}</strike></span></div>
-	
-	<i class=""></i>
-	  </p>   
-  </div>
-  <div class="item tabs tabs-secondary tabs-icon-left">
-    <a class="tab-item tabradius" href="#">
-      VIEW DETAILS
-    </a>
-    <a class="tab-item tabradius" href="#">
-     
-      ADD TO BASKET
-    </a>
-    <a class="tab-item tabradius" href="#">
-     
-SHARE
-    </a>
-  </div>
-
-</div>
-
-
-
-
     </div>
 	
   </ion-content>
@@ -139,23 +89,23 @@ SHARE
   
   <ion-footer align-title="left" class="footercolr">
   <div class=" tabs tabs-icon-top footercolr" ng-controller="footertabs">
-    <a ng-href="{{loyalty}}" class="tab-item active bak">
+    <a class="tab-item active bak">
                     <span class="tab-item  icon footersize">  <i class="{{price}}"></i></span>
-                    LOYALITY<br> PROGRAM
+                    RECOMEND <br>STORE
                 </a>
 		
                 <a class="tab-item bak" >
                     <span class="tab-item  icon footersize">  <i class="{{usd}}"></i></span>
-                    RECOMEND A <br>STORE
+                    PAYMENT <br>SETTING
                 </a>
 				 <a ng-href="{{myPathVariable}}" class="tab-item bak">
                   <span class="tab-item  icon footersize">   <i class="{{loyality}}"></i></span>
-                    WISHLIST<br> 
+                    LOYALITY<br> PROGRAM
                 </a>
 				
                 <a class="tab-item bak1">
                     <span class="tab-item  icon footersize">  <i class="{{cart}}"></i></span>
-                    TRENDING <br>OFFER
+                    MY <br>BASKET
                 </a>
   </div>
  

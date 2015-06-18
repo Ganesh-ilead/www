@@ -95,9 +95,6 @@ angular.module('starter.controllers', [])
 
 
 
-
-/* start code for the dashboard */
-
 .controller('contenntbox1', function($scope) {
   console.log('entered MerchantPoints');
   $scope.contenttitle =  "Latest Merchant Reward" ;
@@ -122,6 +119,18 @@ angular.module('starter.controllers', [])
 })
 
 
+.controller('outstorescroll', function($scope) {
+  console.log('entered outstorescroll');
+  $scope.scrollright = [
+    { img:'img/bJ-img.png', btn: 'view all offer', description:'French Connection Solid Mens',description2:'Polo T-shirtfree for 100 reward point  ', rewarddetails:'You have 3 more rewards enjoy',},
+	{ path:'ion-ios-star-half step size-32', title: 'upcoming reward', description:'You can claim  Your free wrist watch  ',description2:'For only 15 reward point ', rewarddetails:''},
+	{ path:'ion-ios-star-outline step size-32', title: 'wishlist', description:'You have liked 3 offers   ',description2:'You will find the liked items in your wishlist ', rewarddetails:''},
+	{ path:'ion-document-text step size-33 ', title: 'recommended offers', description:'Recommended 4 offers  ',description2:'You will find them interesting ', rewarddetails:''},
+	{ path:'ion-ios-cog-outline step size-32', title: 'new offers', description:'You will find them interesting  ',description2:' ', rewarddetails:'',rdirect:'#/buttonapp/boosteroffer'},
+    
+  ];
+})
+
 
 .controller('social', function($scope, $stateParams) {
 	console.log('entered playlistctrl');
@@ -130,13 +139,6 @@ angular.module('starter.controllers', [])
 	$scope.twt="ion-social-tumblr socialface "
 	
 })
-
-
-
-
-
-
-
 
 
 
@@ -157,10 +159,9 @@ angular.module('starter.controllers', [])
 		$scope.loyality="ion-ios-shuffle-strong footericn ";
 		
 		$scope.myPathVariable = '#/buttonapp/registration';
-		$scope.scroll = '#/app/listoffer';
 		$scope.forgot = '#/apps/forgot';
-		$scope.loyalty = '#/app/loyality';
 })
+
 
 
 
@@ -188,109 +189,15 @@ angular.module('starter.controllers', [])
 })
 
 
-
-.controller('flagg', function($scope, $stateParams) {
-	console.log('entered flagname');
-	$scope.flagtxt12="New"
-})
-
-
-
-  /*cotroller for the out-dashboard */
-
-.controller('scrolhoriztal', function($scope, $stateParams) {
-	console.log('entered playlistctrl');
-	
-		$scope.scrll = '#/app/listoffer';
-})
-
-/*End cotroller for the out-dashboard */
-
-/*start contrller for the listoffer */
-
-
-.controller('boostdiscount', function($scope, $stateParams) {
-	console.log('entered flagname');
-	$scope.discount="50% Discount on strawberry smoothe"
-	$scope.price="$20";
-	$scope.strkdollr="$10";
-})
-
-
-
 .controller('BoosterOffers', function($scope, $stateParams) {
 	console.log('entered playlistctrl');
-	$scope.offer="Buy 3 Glasses of Wheatgrass and get fourth Free .."
-	
+	$scope.offer="Free Wheatgrass Smoothie for 100 points.."
 })
 
-
-.controller('offrdetl', function($scope, $stateParams) {
-	console.log('entered playlistctrl');
-	$scope.offer="canadian colada, same great flavor, Great New Price.. "
-	
+.controller('flag', function($scope, $stateParams) {
+	console.log('entered flagname');
+	$scope.flagtxt="New"
 })
-
-
-/*End controller for the listoffer */
-
-/* start cotroller for the offerdetail */
-
-.controller('offrpara', function($scope, $stateParams) {
-	console.log('entered playlistctrl');
-	$scope.para="Lorem ipsum dolor sit amet, at harum labores volumus ius, liber quaestio pertinacia te cum, eum semper legimus cu. Enim eius ea sed, choro mucius labores in cum. Impedit ocurreret ut has. Id his habeo nominavi, ea eum labitur ornatus accusamus. Nec id ipsum tempor, at pri dicant utinam, iriure indoctum no mei. Cibo labore sapientem his te, ex harum option phaedrum pro .  Nec id ipsum tempor, at pri dicant utinam, iriure indoctum no mei. Cibo labore sapientem his te, ex harum option phaedrum pro"
-	
-})
-
-
-.controller('showdate', function($scope, $stateParams) {
-	console.log('entered playlistctrl');
-	$scope.date="1-1-1990 "
-	
-})
-
-
-.controller('peplevew', function($scope, $stateParams) {
-	console.log('entered playlistctrl');
-	$scope.vew="3 people bought this  "
-	
-})
-
-
-.controller('bannerimg', function($scope, $stateParams) {
-	console.log('entered playlistctrl');
-	$scope.banimg={ path:'img/boostoffer.png'} ;
-	
-})
-
-
-.controller('rdctoffr', function($scope, $stateParams) {
-	console.log('entered playlistctrl');
-	
-		$scope.offerdtls = '#/app/offerdetail';
-})
-
-
-/* End cotroller for the offerdetail */
-
-/* start classes for the Loyality */
-
-.controller('loyalityhighlhgt', function($scope, $stateParams) {
-	console.log('entered playlistctrl');
-	$scope.para="Lorem ipsum dolor sit amet, at harum labores volumus ius, liber quaestio pertinacia te cum, eum semper legimus cu. Enim eius ea sed, choro mucius labores in cum. Impedit ocurreret ut has. Id his habeo nominavi, ea eum labitur ornatus accusamus. Nec id ipsum tempor, at pri dicant utinam, iriure indoctum no mei. Cibo labore sapientem his te, ex harum option phaedrum pro .  Nec id ipsum tempor, at pri dicant utinam, iriure indoctum no mei. Cibo labore sapientem his te, ex harum option phaedrum pro"
-	
-})
-
-
-.controller('btn-merchant', function($scope, $stateParams) {
-	console.log('entered playlistctrl');
-	$scope.btnname="Subscribe to this Merchant";
-	$scope.btnshare="SHARE";
-	
-	
-})
-
-/*End classes for the Loyality */
 
 
 
@@ -302,12 +209,4 @@ angular.module('ionicApp', ['ionic'])
   };
   
   
-
-  
-  
 }]);
-
-
-
-
-
